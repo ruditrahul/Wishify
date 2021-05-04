@@ -1,0 +1,66 @@
+
+.create{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height:80vh;
+    margin:2rem 20rem;
+}
+
+
+input{
+    margin:0.5rem 0;
+    min-width:40vw;
+    height:8vh;
+    padding: 0.5rem;
+    font-size: 15px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+input:focus{
+    outline: none;
+}
+
+.check-btn{
+    margin-left: 16.5rem !important;
+    margin-top: 1rem !important;
+}
+
+.add-btn{
+    margin-top: 1rem !important;
+}
+
+@media (min-width:320px) and (max-width:961px)  
+{
+    .create{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+        height:80vh;
+        margin:1rem 1rem;
+    }
+
+
+    form{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 2rem;
+        padding: 5px;
+    }
+
+    input{
+        font-size: 20px;
+    }
+    .check-btn{
+        margin-left: 0rem !important;
+        height:5.5vh;
+    }
+
+   
+}
